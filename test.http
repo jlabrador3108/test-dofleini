@@ -1,0 +1,24 @@
+###
+GET  http://localhost:1234/nomenclador
+
+###
+POST http://localhost:1234/nomenclador
+content-type: application/json
+
+{
+    "name": "Jorge",
+    "description": "Jorge"
+    
+}
+
+###
+PUT http://localhost:1234/nomenclador/1
+content-type: application/json
+
+{
+    "id": "2",
+    "name": "Jorge"
+}
+
+###
+DELETE http://localhost:1234/nomenclador/2
